@@ -1,0 +1,113 @@
+.chess{
+     width: 854px;   
+     height: 854px;
+     border: 10px solid #fecb01;
+     border-radius: 35px;
+     margin: auto;
+}
+#corner1{
+    width: 25px;
+    height: 27px;
+    float: left;
+    background: #fcab01;
+    border-radius: 35px 0px 0px 0px;
+}
+#corner2{
+    width: 25px;
+    height: 27px;
+    float: left;
+    background: #fcab01;
+    border-radius: 0px 35px 0px 0px;
+}
+#corner3{
+    width: 25px;
+    height: 27px;
+    float: left;
+    background: #fcab01;
+    border-radius: 0px 0px 0px 35px;
+}
+#corner4{
+    width: 25px;
+    height: 27px;
+    float: left;
+    background: #fcab01;
+    border-radius: 0px 0px 35px 0px;
+}
+#alphabet1 div{
+    width: 100.5px;
+    height: 25px;
+    float: left;
+    background: #fcab01;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+#alphabet1 p{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#alphabet2 div{
+    width: 100.5px;
+    height: 25px;
+    float: left;
+    background: #fcab01;
+    text-align: center;
+    border-top: 2px solid #ffffff;
+}
+#alphabet2 p{
+    text-align: center;
+    transform: rotate(180deg);
+    color: #ffffff;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.num1 {
+    width: 25px;
+    height: 100.5px;
+    float: left;
+    background: #fcab01;
+    border-right: 2px solid #ffffff;
+}
+.num1 p{
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 20px;    
+    font-weight: bold;
+}
+.num2{
+    width: 25px;
+    height: 100.5px;
+    float: left;
+    background: #fcab01;
+    border-left: 2px solid #ffffff;
+}
+.num2 p{
+    text-align: center;
+    transform: rotate(180deg);
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.black {
+    width: 100px;
+    height: 100px;  
+    float: left;  
+    background: #fecb01;
+   }
+.white {
+    width: 100px;
+    height: 100px;  
+    float: left; 
+    background: #ffffff;
+}
+.chess img{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
